@@ -7,12 +7,7 @@ import Login from "./pages/Login";
 export default function App() {
   return (
     <>
-      <Autenticar />
-      <hr />
-      <Login />
       <Header />
-      <Principal />
-      <Footer />   
     </>
   )
 }
