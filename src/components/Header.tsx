@@ -1,24 +1,41 @@
-function Header() {
+import { Outlet, Link } from "react-router-dom";
+
+const Header = () => {
   return (
     <>
-      <div className="header-left">
-        <img src="#" alt="Logo Suns-Building" />
-        <h1>Sun's Building</h1>
-      </div>
-      
-      <div className="header-right">
-        <nav>
-          <ul>
-            <a href=""><li>Pagina Incial</li></a>
-            <a href=""><li>Sobre</li></a>
-            <a href=""><li>Contato</li></a>
-            <a href=""><li>Login</li></a>
-            <a href=""><li>Cadstre-se</li></a>
-          </ul>
-        </nav>
-      </div>
+      <header>
+        <div className="header-left">
+          <img src="#" alt="Logo Suns-Building" />
+          <h1>Sun's Building</h1>
+        </div>
+        <div className="header-right">
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">Início</Link>
+              </li>
+              <li>
+                <Link to="/sobre">Sobre</Link>
+              </li>
+              <li>
+                <Link to="/contato">Contato</Link>
+              </li>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/cadastro">Cadastre-se</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <Outlet />
+      </main>
     </>
   );
-}
+};
 
 export default Header;
