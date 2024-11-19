@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./layout";
+import Header from "../components/Header";
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
@@ -12,7 +12,7 @@ export default function Router() {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Header />}>
             <Route index element={<Home />} />
             <Route path="About" element={<About />} />
             <Route path="Contact" element={<Contact />} />
