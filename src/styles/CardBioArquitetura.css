@@ -1,0 +1,18 @@
+.container-cardbioarquitetura{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% ;
+}
+
+.container-text-cardbioarquitetura{
+    max-width: 50%;
+}
+
+#titulo-lista-bioarquitetura{
+    list-style: none;
+}
+
+.lista-bioarquitetura li{
+    margin-bottom: 30px;
+}
