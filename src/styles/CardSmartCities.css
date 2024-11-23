@@ -1,0 +1,19 @@
+.container-cardsmartcities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% ;
+    margin-bottom: 15%;
+}
+
+.container-text-cardsmartcities{
+    max-width: 50%;
+}
+
+#titulo-lista-smartcities{
+    list-style: none;
+}
+
+.lista-smartcities li{
+    margin-bottom: 30px;
+}

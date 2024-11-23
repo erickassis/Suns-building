@@ -8,6 +8,9 @@ import Login from "./pages/Login";
 import CardBrand from "./components/CardBrand";
 import CardsTopicos from "./components/CardsTopicos";
 import CardBioArquitetura from "./components/CardBioArquitetura";
+import CardEdificio from "./components/CardEdificio";
+import CardSmartCities from "./components/CardSmartCities";
+import CardEnergiaRenovaveis from "./components/CardEnergiaRenovaveis";
 
 export default function App() {
   return (
@@ -16,6 +19,9 @@ export default function App() {
       <CardBrand></CardBrand>
       <CardsTopicos></CardsTopicos>
       <CardBioArquitetura></CardBioArquitetura>
+      <CardEdificio></CardEdificio>
+      <CardSmartCities></CardSmartCities>
+      <CardEnergiaRenovaveis></CardEnergiaRenovaveis>
     </>
   )
 }
