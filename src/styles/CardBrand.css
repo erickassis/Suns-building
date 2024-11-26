@@ -1,6 +1,7 @@
 /* Container central do Componente CardBrand */
 .container-cardbrand{
     width: 100%;
+    background-color: #dfdfdf;
 }
 
 /* Contaienr que limita os itens */

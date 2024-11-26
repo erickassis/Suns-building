@@ -1,0 +1,39 @@
+.container-cardicones{
+    max-width: 100%;
+    padding-bottom: 200px;
+    
+}
+
+.container-img-cardicones{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#background-img-cardicones{
+    width: 90%;
+    height: 600px;
+}
+
+.list-cardicones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    position: absolute;
+    top: 90%;
+}
+
+
+.list-cardicones li{
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid red;
+}
+
+.list-cardicones li img{
+    max-width: 200px;
+    max-height: 200px;
+}

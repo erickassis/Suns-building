@@ -25,11 +25,11 @@ const CardsTopicos = () => {
         </div>
         <div className='conatainer-img-cardstopicos'>
             <h2>Smart-cities</h2>
-            <img src={backGrey} alt="" className='img-cardstopicos'/>
+            <img src={buscarImagem('painelSolar')} alt="" className='img-cardstopicos'/>
         </div>
         <div className='conatainer-img-cardstopicos'>
             <h2>Energíes Renováveis</h2>
-            <img src={backGrey} alt="" className='img-cardstopicos'/>
+            <img src={buscarImagem('testeTelhado')} alt="" className='img-cardstopicos'/>
         </div>
 
     </div>

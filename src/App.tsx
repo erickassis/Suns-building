@@ -11,6 +11,7 @@ import CardBioArquitetura from "./components/CardBioArquitetura";
 import CardEdificio from "./components/CardEdificio";
 import CardSmartCities from "./components/CardSmartCities";
 import CardEnergiaRenovaveis from "./components/CardEnergiaRenovaveis";
+import CardIcones from "./components/CardIcones";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <CardEdificio></CardEdificio>
       <CardSmartCities></CardSmartCities>
       <CardEnergiaRenovaveis></CardEnergiaRenovaveis>
+      <CardIcones></CardIcones>
     </>
   )
 }
