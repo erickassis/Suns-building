@@ -1,3 +1,4 @@
+import '../styles/LoginCadastro.css'
 import { useState } from "react";
 import { auth } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, signOut } from "firebase/auth";
@@ -25,14 +26,33 @@ export default function Autenticar() {
 
   return (
     <>
-      <div className="signUpBox">
-        <input onChange={(e) => {setEmail(e.target.value)}} id="email" placeholder="Email..." type="text" />
-          <br></br>
-        <input onChange={(e) => {setSenha(e.target.value)}} id="senha" placeholder="Senha..." type="password" />
-          <br></br>
-        <button onClick={cadastrar}>Cadastrar-se</button>
-        <button onClick={logout}>Logout</button>
-      </div>    
+      <div className="bkground">
+        <div className="login">
+          <h1>Entrar na Suns Building</h1>
+          <div className="form">
+            <input onChange={(e) => {setEmail(e.target.value)}} id="email" placeholder="Email..." type="text" />
+            <input onChange={(e) => {setSenha(e.target.value)}} id="senha" placeholder="Senha..." type="password" />
+            <button onClick={cadastrar}>Cadastrar-se</button>
+            <button onClick={logout}>Logout</button>
+          </div>
+          <footer className="footerLogin">
+            <p>Já possui conta? <a href="#">Faça login aqui</a></p>
+          </footer>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
     </>
   )
 }
