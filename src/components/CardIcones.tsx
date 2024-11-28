@@ -1,29 +1,24 @@
-import React from 'react'
-
-//CSS
 import '../styles/CardIcones.css';
-
-
-import backGrey from '../assets/fb51434f75f4513fd43833fba4c4f2d6.jpg'
+import { buscarImagem } from './buscarImagem'
 
 const CardIcones = () => {
   return (
     <div className='container-cardicones'>
         <div className='container-img-cardicones'>
-            <img src={backGrey} alt="" id='background-img-cardicones'/>
+            <img src={buscarImagem('painelSolar')} alt="" id='background-img-cardicones'/>
 
             <ul className='list-cardicones'>
                 <li>
-                    <img src={backGrey} alt="" />
+                    <img src={buscarImagem('solarPanelTechnician')} alt="" />
                 </li>
                 <li>
-                    <img src={backGrey} alt="" />
+                    <img src={buscarImagem('smartcity2')} alt="" />
                 </li>
                 <li>
-                    <img src={backGrey} alt="" />
+                    <img src={buscarImagem('windmill')} alt="" />
                 </li>
                 <li>
-                    <img src={backGrey} alt="" />
+                    <img src={buscarImagem('ecoBricks')} alt="" />
                 </li>
             </ul>
         </div>
