@@ -1,9 +1,5 @@
-import React from 'react'
-
-//Estilo
 import '../styles/CardSmartCities.css'
-//img 
-import backGrey from '../assets/fb51434f75f4513fd43833fba4c4f2d6.jpg'
+import { buscarImagem } from './buscarImagem'
 
 const CardSmartCities = () => {
   return (
@@ -11,7 +7,7 @@ const CardSmartCities = () => {
 
 
         <div className='container-img-cardsmartcities'>
-            <img src={backGrey} alt="" />
+            <img className='imagens-pequenas' src={buscarImagem('smart')} alt="" />
         </div>
 
         <div className='container-text-cardsmartcities'>

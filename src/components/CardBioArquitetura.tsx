@@ -4,6 +4,7 @@ import React from 'react'
 import '../styles/CardBioArquitetura.css'
 //img 
 import backGrey from '../assets/fb51434f75f4513fd43833fba4c4f2d6.jpg'
+import { buscarImagem } from './buscarImagem'
 
 const CardBioArquitetura = () => {
   return (
@@ -21,7 +22,7 @@ const CardBioArquitetura = () => {
         </div>
 
         <div className='container-img-cardbioarquitetura'>
-            <img src={backGrey} alt="" />
+            <img className='imagens-pequenas' src={buscarImagem('varandaVerde')} alt="" />
         </div>
     </div>
   )
