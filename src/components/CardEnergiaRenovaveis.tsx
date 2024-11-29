@@ -4,7 +4,10 @@ import { buscarImagem } from './buscarImagem'
 const CardEnergiaRenovaveis = () => {
   return (
     <div className='container-cardenergiarenovaveis'>
-
+              
+        <div className='container-img-cardenergiarenovaveis'>
+            <img className='imagens-pequenas' src={buscarImagem('geothermalEnergy')} alt="" />
+        </div>
 
 
         <div className='container-text-cardenergiarenovaveis'>
@@ -18,13 +21,6 @@ const CardEnergiaRenovaveis = () => {
                 <li>Lorem ipsum dolor</li>
             </ul>
         </div>
-
-
-        
-        <div className='container-img-cardenergiarenovaveis'>
-            <img className='imagens-pequenas' src={buscarImagem('geothermalEnergy')} alt="" />
-        </div>
-
 
     </div>
   )

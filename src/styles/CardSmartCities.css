@@ -8,6 +8,7 @@
 
 .container-text-cardsmartcities{
     max-width: 50%;
+    margin-left: 100px;
 }
 
 #titulo-lista-smartcities{
@@ -21,4 +22,47 @@
 .imagens-pequenas {
     height: 417px;
     width: 626px;
+}
+
+@media(max-width:1200px){
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .container-img-cardsmartcities{
+        width: 70%;
+
+    }
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+
+    .container-text-cardsmartcities{
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:700px){
+    .container-cardsmartcities{
+        flex-direction: column;
+        padding: 5% ;
+        margin-top: 100px;
+    }
+
+    .container-img-cardsmartcities{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+    
+    .container-text-cardsmartcities{
+        max-width: 100%;
+        margin: 0;
+    }
 }

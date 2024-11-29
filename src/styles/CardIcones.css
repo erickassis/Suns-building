@@ -30,10 +30,55 @@
 .list-cardicones li{
     max-width: 200px;
     max-height: 200px;
-    border: 2px solid red;
 }
 
 .list-cardicones li img{
     max-width: 200px;
     max-height: 200px;
+}
+
+
+@media(max-width:1000px){
+    .list-cardicones li{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .list-cardicones li img{
+        max-width: 150px;
+        max-height: 180px;
+    }
+}
+@media(max-width:750px){
+    .list-cardicones li{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .list-cardicones li img{
+        max-width: 130px;
+        max-height: 150px;
+    }
+}
+@media(max-width:560px){
+    .list-cardicones li{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .list-cardicones li img{
+        max-width: 100px;
+        max-height: 120px;
+    }
+}
+@media(max-width:460px){
+    .list-cardicones li{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .list-cardicones li img{
+        max-width: 80px;
+        max-height: 100px;
+    }
 }

@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: space-around;
     padding: 5% ;
+    margin-bottom: 10%;
 }
 
 .container-text-cardbioarquitetura{
     max-width: 50%;
+    margin-left: 100px;
 }
 
-#titulo-lista-bioarquitetura{
+#titulo-lista-cardbioarquitetura{
     list-style: none;
 }
 
@@ -18,6 +20,38 @@
 }
 
 .imagens-pequenas {
-    height: 417;
-    width: 626;
+    height: 417px;
+    width: 626px;
+}
+
+
+
+
+@media(max-width:1200px){
+    .container-img-cardbioarquiteturas img{
+        width: 100%;
+    }
+}
+
+@media(max-width:1100px){
+    .container-cardbioarquitetura{
+        flex-direction: column;
+        padding: 5% ;
+        margin-top: 100px;
+    }
+
+    .container-img-cardbioarquitetura{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .container-img-cardbioarquitetura img{
+        width: 100%;
+    }
+    
+    .container-text-cardbioarquitetura{
+        max-width: 100%;
+        margin: 0;
+    }
 }

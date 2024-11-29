@@ -9,8 +9,16 @@ import { buscarImagem } from './buscarImagem'
 const CardBioArquitetura = () => {
   return (
     <div className='container-cardbioarquitetura'>
+
+
+      
+          <div className='container-img-cardbioarquitetura'>
+              <img className='imagens-pequenas' src={buscarImagem('varandaVerde')} alt="" />
+          </div>
+          
         <div className='container-text-cardbioarquitetura'>
-            
+
+              
             <ul className='lista-bioarquitetura'>
                 <li id='titulo-lista-bioarquitetura'><h1>BIO-ARQUITETURA...</h1></li>
                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate maxime placeat ut fugiat soluta assumenda aliquam dignissimos inventore? Commodi id recusandae odio, illo voluptatum maiores vitae ipsa! Sapiente, quasi esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laudantium in illo culpa impedit accusamus necessitatibus omnis assumenda dicta delectus eaque optio atque perspiciatis nostrum obcaecati amet voluptatibus, maiores maxime.</li>
@@ -21,9 +29,7 @@ const CardBioArquitetura = () => {
             </ul>
         </div>
 
-        <div className='container-img-cardbioarquitetura'>
-            <img className='imagens-pequenas' src={buscarImagem('varandaVerde')} alt="" />
-        </div>
+
     </div>
   )
 }
