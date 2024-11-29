@@ -22,7 +22,7 @@ const CardEnergiaRenovaveis = () => {
                   <li className='links-t'>
                     <a href="https://abeeolica.org.br" target='_black' rel="noopener noreferrer">Éolica</a></li>
                   <li className='links-t'>
-                    <a href="" target='_black' rel="noopener noreferrer">Solar</a></li>
+                    <a href="https://www.portalsolar.com.br/painel-solar" target='_black' rel="noopener noreferrer">Solar</a></li>
                   <li className='links-t'>
                   <a href="https://www.portalsolar.com.br/energia-geotermica" target="_blank" rel="noopener noreferrer">Geotérmica</a>
                   </li>

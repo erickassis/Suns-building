@@ -1,7 +1,7 @@
 /* Container central do Componente CardBrand */
 .container-cardbrand {
-    display: flex; 
-    align-items: center; 
+    display: flex;  /* Flexbox para alinhar os itens horizontalmente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
     justify-content: center;
     padding: 20px;
     background: linear-gradient(#f7a156, #858585);
@@ -10,7 +10,7 @@
   
   /* Contaienr que limita os itens do card */
   .container-limitador-cardbrand {
-    width: 50%;  
+    width: 50%;  /* A largura do card será 50% */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,10 +19,10 @@
   
   /* Ajuste para a imagem manter o tamanho original */
   .container-img-cardbrand img {
-    width: auto;  
-    height: auto;  
-    max-width: 100%;
-    max-height: 100%; 
+    width: auto;  /* A imagem mantém a largura original */
+    height: auto;  /* Mantém a proporção da imagem */
+    max-width: 100%; /* A imagem não ultrapassa o limite do container */
+    max-height: 100%; /* A imagem não ultrapassa o limite do container */
     border-radius: 40px;
   }
   
@@ -42,9 +42,9 @@
   
   /* Container da descrição ao lado do card */
   .descricao-container {
-    max-width: 45%;  
+    max-width: 45%;  /* Largura para o texto não ficar muito largo */
     padding: 20px;
-    margin-left: 20px;  
+    margin-left: 20px;  /* Distância entre o card e a descrição */
   }
   
   /* Estilo do texto "Nosso Objetivo" */

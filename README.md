@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+<h1 align= center>Sun's Building</h1> 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sun's Building é uma plataforma interativa, onde os usuários poderão acessar informações relevantes e dados sobre urbanização sustentável. Ao fazer isso, esperamos contribuir para a conscientização e a adoção de práticas que promovam o desenvolvimento de cidades mais verdes, resilientes e sustentáveis.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,ts,nodejs)](https://skillicons.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Instruções Para Execução
+1. **Clone o repositório:**
+   ```bash
+   $ git clone https://github.com/erickassis/Suns-building.git
+   ```
 
-## Expanding the ESLint configuration
+2. **Instale as dependências:**
+   ```bash
+   $ cd Suns-building
+   $ npm install
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Execute a aplicação:**
+   ```bash
+   $ npm run dev
+   ```
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+4. **Acesse no navegador:**
+   ```
+   http://localhost:5173
+   ```
+## Estrutura do Projeto
+### :file_folder: src/
+- **:file_folder: components/** Possui todos os componentes da aplicação.
+- **:file_folder: pages/** Possui todas as paginas da aplicação.
+- **:file_folder: style/** Possui todos os arquivos de estilo da aplicação.
