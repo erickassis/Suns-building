@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
 import '../styles/LoginCadastro.css'
 import { useState } from "react";
 import { auth } from "../firebaseConfig";
@@ -17,6 +19,9 @@ export default function Login() {
     <>
       <div className="bkground">
         <div className="login">
+          <Link to="/" className="back-arrow">
+            <FaArrowLeft size={30} />
+          </Link>
             <h1>Entrar na Suns Building</h1>
             <div className="form">
               <input onChange={(e) => {setEmail(e.target.value)}} id="logarEmail" placeholder="Email..." type="text" />
@@ -24,7 +29,7 @@ export default function Login() {
               <button onClick={logar}>Logar</button> 
             </div>
             <footer className="footerLogin">
-                <p>Não possui conta? <a href="#">Cadastre-se aqui</a></p>
+            <p>Não possui conta? <Link to="/Register">Cadastre-se aqui</Link></p>
             </footer>
         </div>
     </div>
