@@ -1,18 +1,12 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Principal from "./components/Principal";
-import Autenticar from "./pages/Autenticar";
-import Login from "./pages/Login";
+import AppRouter from "./pages/Router"
+import { AuthProvider } from "./components/AuthContext"
 
 export default function App() {
   return (
     <>
-      <Autenticar />
-      <hr />
-      <Login />
-      <Header />
-      <Principal />
-      <Footer />   
+    <AuthProvider>
+      <AppRouter/>
+    </AuthProvider>
     </>
   )
 }

@@ -1,9 +1,8 @@
-// src/firebaseConfig.ts
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyBwBeqjrOuiBlL2Wx2N6UEvNgEsJJExLV0",
   authDomain: "suns-building.firebaseapp.com",
@@ -15,9 +14,8 @@ const firebaseConfig = {
 };
 
 // Inicialize o Firebase
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
 
-// Exporta o Firestore para usar nas outras partes do projeto
 export const db = getFirestore(app);
 
 export const auth = getAuth(app);
