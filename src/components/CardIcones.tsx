@@ -27,4 +27,4 @@ const CardIcones = () => {
   )
 }
 
-export default CardIcones
+export default CardIcones;

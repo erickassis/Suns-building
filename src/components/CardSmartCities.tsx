@@ -26,10 +26,8 @@ const CardSmartCities = () => {
                 </li>
             </ul>
         </div>
-
-
     </div>
   )
 }
 
-export default CardSmartCities
+export default CardSmartCities;

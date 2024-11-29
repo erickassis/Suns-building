@@ -23,10 +23,8 @@ const CardBioArquitetura = () => {
                 </li>
             </ul>
         </div>
-
-
     </div>
   )
 }
 
-export default CardBioArquitetura
+export default CardBioArquitetura;
