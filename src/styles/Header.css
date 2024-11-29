@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #F7A156;
     
 }
 
@@ -22,14 +22,14 @@
 }
 
 .header-left h1{
-    font-size: 16px;
+    font-size: 32px;
     margin-left: 30px;
     color: black;
 }
 
 .header-left img{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -49,10 +49,18 @@
 
 .header-right ul li{
     list-style: none;
+    text-decoration: none;
+}
+
+.header-right ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
 }
 
 li {
-    list-style-type: none;   
+    list-style-type: none; 
 }
 
 @media (max-width: 1000px){
@@ -75,6 +83,14 @@ li {
     .header-right ul li{
         margin-right: 60px;
     }
+
+    .header-right ul li a{
+        font-size: 16px;
+    }
+
+    .header-left h1{
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 670px){
@@ -86,16 +102,9 @@ li {
     .header-right ul li{
         margin-right: 50px;
     }
-}
-
-@media (max-width: 500px){
-
-    .header-right{
-        margin-left: 40px;
-    }
-
-    .header-right ul li{
-        margin-right: 30px;
+    .header-left h1{
+        font-size: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -108,7 +117,17 @@ li {
     .header-right ul li{
         margin-right: 30px;
     }
+
+    .header-left h1{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .header-right ul li a{
+        font-size: 16px;
+    }
 }
+
 
 @media (max-width: 450px){
     
@@ -119,11 +138,20 @@ li {
     }
 
     .header-right{
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .header-right ul li{
         margin-right: 20px;
+    }
+
+    
+    .header-left h1{
+        font-size: 14px;
+    }
+
+    .header-right ul li a{
+        font-size: 14px;
     }
 }
 @media (max-width: 400px){
@@ -135,10 +163,14 @@ li {
     }
 
     .header-right{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .header-right ul li{
         margin-right: 20px;
+    }
+
+    .header-right ul li a{
+        font-size: 14px;
     }
 }

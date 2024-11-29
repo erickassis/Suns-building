@@ -9,10 +9,11 @@
 .container-text-cardbioarquitetura{
     max-width: 50%;
     margin-left: 100px;
+    color: #fff;
 }
-
-#titulo-lista-cardbioarquitetura{
+.container-text-cardbioarquitetura h1{
     list-style: none;
+    color: #f7a156;
 }
 
 .lista-bioarquitetura li{

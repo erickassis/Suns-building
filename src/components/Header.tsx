@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import "../styles/Header.css";
-import back from "../assets/fb51434f75f4513fd43833fba4c4f2d6.jpg";
+import Logo from "../assets/logo_suns_building.jpg";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       {/* Cabeçalho com navegação */}
       <div className="header-container">
         <div className="header-left">
-          <img src={back} alt="Logo Suns-Building" />
+          <img src={Logo} alt="Logo Suns-Building" />
           <h1>Sun's Building</h1>
         </div>
 

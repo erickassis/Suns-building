@@ -9,10 +9,13 @@
 .container-text-cardenergiarenovaveis{
     max-width: 50%;
     margin-left: 100px;
+    color: #fff;
 }
 
-#titulo-lista-energiarenovaveis{
+.container-text-cardenergiarenovaveis h1{
     list-style: none;
+    color: #F7A156;
+    
 }
 
 .lista-energiarenovaveis li{

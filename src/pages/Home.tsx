@@ -5,6 +5,7 @@ import CardEdificio from '../components/CardEdificio';
 import CardSmartCities from '../components/CardSmartCities';
 import CardEnergiaRenovaveis from '../components/CardEnergiaRenovaveis';
 import CardIcones from '../components/CardIcones';
+import Footer from '../components/Footer.tsx';
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       <CardSmartCities/>
       <CardEnergiaRenovaveis/>
       <CardIcones/>
+      <Footer></Footer>
+
     </div>
   );
 };

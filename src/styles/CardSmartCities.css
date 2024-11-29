@@ -9,10 +9,13 @@
 .container-text-cardsmartcities{
     max-width: 50%;
     margin-left: 100px;
+    color: #fff;
 }
 
-#titulo-lista-smartcities{
+.container-text-cardsmartcities h1{
     list-style: none;
+    color: #F7A156;
+    
 }
 
 .lista-smartcities li{
