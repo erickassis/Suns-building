@@ -7,19 +7,19 @@ import NoPage from "./NoPage";
 import Register from "./Register";
 
 export default function Router() {
-    return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Header />}>
-            <Route index element={<Home />} />
-            <Route path="Login" element={<Login />} />
-            <Route path="Register" element={<Register />} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    );
-  }
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
   
   const root = ReactDOM.createRoot(document.getElementById('root')!);
   root.render(<Router />);

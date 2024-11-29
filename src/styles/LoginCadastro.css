@@ -6,14 +6,14 @@ body, html{
     box-sizing: border-box;
 }
 .bkground{
-    background-color: #8b5e3c;
+    background-color: #333333;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .login{
-    background-color: #ffa75e;
+    background-color: #ff9c3b;
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -46,7 +46,7 @@ input{
     font-size: 0.8rem;
 }
 button{
-    background-color: #47ca66;
+    background-color: #3fa755;
     color: #fff;
     padding: 0.6rem 2rem;
     border: none;
@@ -68,4 +68,22 @@ footer a{
         color: #fff;
         text-decoration: underline;
         font-weight: bolder;
+}
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #808080;
+    text-decoration: none;
+    font-size: 24px;
+
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ff9c3b;
+}
+
+.back-arrow:hover {
+    color: #555555;
 }
