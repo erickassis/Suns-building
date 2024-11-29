@@ -20,7 +20,7 @@ const CardBrand = () => {
 
       {/* Adicionando a descrição ao lado do card */}
       <div className="descricao-container">
-        <p className='descricaoSite'>Nosso Objetivo</p>
+        <h1 className='descricaoSite'>Nosso Objetivo</h1>
         <p className='descricaoSite'>
           Sun's Building é uma plataforma interativa, onde os usuários poderão acessar informações relevantes e dados sobre urbanização sustentável. Ao fazer isso, esperamos contribuir para a conscientização e a adoção de práticas que promovam o desenvolvimento de cidades mais verdes, resilientes e sustentáveis.
         </p>
