@@ -19,7 +19,8 @@ const CardBioArquitetura = () => {
                  <li/>
                  <li className='links-t'><a href="#ecotelhados">Ecotelhados</a></li>
                  <li className='links-t'><a href="#drenagem-sustentavel">Sistema de Drenagem Sustentável</a></li><br />
-                 <li className='links-t'><a href="#tijolos-ecologicos">Tijolos Ecológicos</a></li>
+                 <li className='links-t'>
+                  <a href="https://www.escolaengenharia.com.br/tijolo-ecologico/" target='_black' rel="noopener noreferrer">Tijolos Ecológicos</a></li>
                 </li>
             </ul>
         </div>

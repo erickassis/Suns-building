@@ -21,8 +21,12 @@ const CardSmartCities = () => {
                   <p>As smart-cities reduzem emissões de carbono, melhoram a mobilidade e gerenciam melhor os recursos naturais. <br />
                   Clique em um dos <span>links</span> abaixo para saber mais.</p>
                 <li/>
-                <li className='links-t'><a href="#postes-inteligentes">Postes Inteligentes</a></li>
-                <li className='links-t'><a href="#coleta-lixo-inteligente">Coleta de Lixo Inteligente</a></li>
+                <li className='links-t'>
+                 <a href="https://isbel.com/pt-br/postes-inteligentes-ciudades-futuro/" target="_blank" rel="noopener noreferrer">Postes Inteligentes</a>
+                </li>
+                <li className='links-t'>
+                 <a href="https://www.bbc.com/portuguese/noticias/2013/09/130902_cidades_futuro_seul_ru" target="_blank" rel="noopener noreferrer">Coleta de Lixo Inteligente</a>
+                </li>
                 </li>
             </ul>
         </div>
