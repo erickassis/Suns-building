@@ -6,6 +6,10 @@
     margin-bottom: 10%;
 }
 
+span {
+    color: #f7a156;
+}
+
 .container-text-cardbioarquitetura{
     max-width: 50%;
     margin-left: 100px;
@@ -19,13 +23,21 @@
 .lista-bioarquitetura li{
     margin-bottom: 30px;
 }
+.lista-bioarquitetura li p {
+    font-size: 25px;
+}
 
 .imagens-pequenas {
     height: 417px;
     width: 626px;
+    border-radius: 50px;
 }
 
-
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
+    font-size: 25px
+}
 
 
 @media(max-width:1200px){

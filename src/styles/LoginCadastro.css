@@ -59,7 +59,7 @@ button{
 button:hover{
     background-color: #55ab69;
 }
-footerLogin{
+.footerLogin{
     color: #fff;
     text-decoration: underline;
     font-weight: bolder;
@@ -68,6 +68,7 @@ footer a{
         color: #fff;
         text-decoration: underline;
         font-weight: bolder;
+        font-size: 15px;
 }
 .back-arrow {
     position: absolute;
@@ -86,4 +87,9 @@ footer a{
 
 .back-arrow:hover {
     color: #555555;
+}
+
+.error-message {
+    font-size: large;
+    color: rgb(168, 23, 23);
 }

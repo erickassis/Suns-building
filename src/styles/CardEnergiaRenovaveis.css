@@ -22,6 +22,25 @@
     margin-bottom: 30px;
 }
 
+.lista-energiarenovaveis li p {
+    font-size: 25px;
+}
+.links-t a:hover {
+    color: white;
+}
+
+.links-t a:active {
+    color: rgb(139, 151, 161);
+}
+
+span {
+    color: #f7a156;
+}
+
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
+}
 .imagens-pequenas {
     height: 417px;
     width: 626px;

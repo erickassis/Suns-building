@@ -1,13 +1,14 @@
 import '../styles/Footer.css'
-import unifacs from '../assets/Logomarca-da-Universidade-Salvador-UNIFACS-201911201.jpg'
+import unifacs from '../assets/unifacs.png'
 
 function Footer() {
   return (
     <div className="container-footer">
       <div className="container-img-unifacs">
-        <img src={unifacs} alt="" />
+        <a href="https://www.unifacs.br/"><img className='logoUni' src={unifacs} alt="Logo da UNIFACS" /></a>
       </div>
       <div className="container-nome-footer">
+        DESENVOLVEDORES:
         <ul className='lista-nome'>
           <li>
             AMANDA BEATRIZ DE JESUS SOUZA 

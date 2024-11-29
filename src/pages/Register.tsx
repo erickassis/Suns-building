@@ -14,21 +14,16 @@ export default function Autenticar() {
 
   const cadastrar = async () => {
     try {
-      // Limpa mensagens anteriores
       setMensagemErro("");
 
-      // Tenta criar a conta
       await createUserWithEmailAndPassword(auth, email, senha);
 
-      // Alerta de sucesso
       alert("Conta criada com sucesso!");
 
-      // Redireciona para a página inicial
       navigate("/");
     } catch (err: any) {
       console.error(err);
 
-      // Trata os erros mais comuns do Firebase Authentication
       switch (err.code) {
         case "auth/email-already-in-use":
           setMensagemErro("O email já está em uso. Tente outro.");

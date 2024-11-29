@@ -15,14 +15,14 @@ const CardSmartCities = () => {
             <ul className='lista-smartcities'>
                 <li id='titulo-lista-smartcities'><h1>SMART CITIES...</h1></li>
                 <li>
-                As smart-cities utilizam tecnologias avançadas como inteligência artificial, IoT (Internet das Coisas) e big data, 
-                para promover o desenvolvimento sustentável e melhorar a qualidade de vida na cidade. <br />
-                Otimizando áreas como transporte, energia e infraestrutura. <br />
-                As smart-cities reduzem emissões de carbono, melhoram a mobilidade e gerenciam melhor os recursos naturais. <br />
-                Clique em um dos links abaixo para saber mais. <br />
-    
-                <a href="#postes-inteligentes">Postes Inteligentes</a><br />
-                <a href="#coleta-lixo-inteligente">Coleta de Lixo Inteligente</a>
+                  <p> As smart-cities utilizam tecnologias avançadas como inteligência artificial, IoT (Internet das Coisas) e big data, 
+                  para promover o desenvolvimento sustentável e melhorar a qualidade de vida na cidade.
+                  Otimizando áreas como transporte, energia e infraestrutura.</p> <br />
+                  <p>As smart-cities reduzem emissões de carbono, melhoram a mobilidade e gerenciam melhor os recursos naturais. <br />
+                  Clique em um dos <span>links</span> abaixo para saber mais.</p>
+                <li/>
+                <li className='links-t'><a href="#postes-inteligentes">Postes Inteligentes</a></li>
+                <li className='links-t'><a href="#coleta-lixo-inteligente">Coleta de Lixo Inteligente</a></li>
                 </li>
             </ul>
         </div>

@@ -13,15 +13,15 @@ const CardEnergiaRenovaveis = () => {
         <div className='container-text-cardenergiarenovaveis'>
             
             <ul className='lista-energiarenovaveis'>
-                <li id='titulo-lista-energiarenovaveis'><h1>ENERGIA RENOVAVEIS...</h1></li>
+                <li id='titulo-lista-energiarenovaveis'><h1>ENERGIAS RENOVAVEIS...</h1></li>
                 <li>
-                  As energias renováveis são geradas a partir de fontes naturais e são utilizadas como alternativas sustentáveis aos combustíveis fósseis, que, por sua vez, aumentam os gases do efeito estufa. <br />
-                  A principal vantagem ao usá-las é o menor impacto ambiental, pois reduzem a emissão de poluentes. <br />
-                  Algumas delas: <br />
+                  <p>As energias renováveis são geradas a partir de fontes naturais e são utilizadas como alternativas sustentáveis aos combustíveis fósseis, que, por sua vez, aumentam os gases do efeito estufa.</p> <br />
+                  <p>A principal vantagem ao usá-las é o menor impacto ambiental, pois reduzem a emissão de poluentes.</p><br />
+                  <p>Clique nos <span>links</span> abaixo para se informar sobre algumas delas:</p><li />
                 <ul>
-                  <li>Éolica</li>
-                  <li>Solar</li>
-                  <li>Geotérmica</li>
+                  <li className='links-t'><a href="">Éolica</a></li>
+                  <li className='links-t'><a href="">Solar</a></li>
+                  <li className='links-t' ><a href="">Geotérmica</a></li>
                 </ul>
               </li>
             </ul>
@@ -31,4 +31,4 @@ const CardEnergiaRenovaveis = () => {
   )
 }
 
-export default CardEnergiaRenovaveis
+export default CardEnergiaRenovaveis;

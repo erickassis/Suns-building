@@ -5,7 +5,6 @@ import Logo from "../assets/logo_suns_building.jpg";
 function Header() {
   return (
     <div>
-      {/* Cabeçalho com navegação */}
       <div className="header-container">
         <div className="header-left">
           <img src={Logo} alt="Logo Suns-Building" />
@@ -15,13 +14,13 @@ function Header() {
         <div className="header-right">
           <nav>
             <ul>
-              <li>
+              <li className="links">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="links">
                 <Link to="/Login">Login</Link>
               </li>
-              <li>
+              <li className="links">
                 <Link to="/Register">Cadastre-se</Link>
               </li>
             </ul>

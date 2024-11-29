@@ -22,9 +22,21 @@
     margin-bottom: 30px;
 }
 
+.lista-smartcities li p {
+    font-size: 25px;
+}
+
 .imagens-pequenas {
     height: 417px;
     width: 626px;
+}
+
+span {
+    color: #f7a156;
+}
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
 }
 
 @media(max-width:1200px){

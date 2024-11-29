@@ -9,16 +9,16 @@ const CardIcones = () => {
 
             <ul className='list-cardicones'>
                 <li>
-                    <img src={buscarImagem('illustracaoBiomassa')} alt="" />
+                    <img className='img-card-icones' src={buscarImagem('illustracaoBiomassa')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('illustrcaoBarragem')} alt="" />
+                    <img className='img-card-icones' src={buscarImagem('illustrcaoBarragem')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('illustracaoTurbina')} alt="" />
+                    <img className='img-card-icones' src={buscarImagem('illustracaoTurbina')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('illustracaoPainelSolar')} alt="" />
+                    <img className='img-card-icones' src={buscarImagem('illustracaoPainelSolar')} alt="" />
                 </li>
             </ul>
         </div>

@@ -1,7 +1,7 @@
 /* Container central do Componente CardBrand */
 .container-cardbrand{
     width: 100%;
-    background-image: url("https://images.pexels.com/photos/15751134/pexels-photo-15751134/free-photo-of-campo-area-meio-ambiente-natureza.jpeg");
+    background: linear-gradient(#f7a156, #858585);
     background-size: cover;
 }
 
@@ -19,6 +19,7 @@
 .container-limitador-cardbrand img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 40px;
 }
 
 /* Container do título */

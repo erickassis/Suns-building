@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F7A156;
+    background: #f7a156;
     
 }
 
@@ -38,7 +38,7 @@
 }
 .header-right ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 10%;
     
 }
@@ -57,6 +57,14 @@
     text-decoration: none;
     color: #000;
     font-size: 20px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.links a:active {
+    color: rgb(139, 151, 161);
 }
 
 li {

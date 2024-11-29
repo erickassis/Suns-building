@@ -1,7 +1,8 @@
+
 .container-footer{
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background: linear-gradient(#858585, #f7a156);
 }
 .container-img-unifacs{
     width: 30%;
@@ -9,9 +10,14 @@
 .container-img-unifacs img{
     max-width: 200px;
     max-height: 200px;
-    border-radius: 50%;
+    border-radius: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
+.container-nome-footer {
+    text-align: center;
+}
 .lista-nome{
     display: flex;
     justify-content: space-between;
