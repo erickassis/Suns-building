@@ -1,30 +1,63 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
-import '../styles/LoginCadastro.css'
+import '../styles/LoginCadastro.css';
 import { useState } from "react";
 import { auth } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, signOut } from "firebase/auth";
 
 export default function Autenticar() { 
-  //Serve pra atualizar o estado dos inputs.
+  // Estados para capturar os valores dos inputs e mensagens de erro
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
+  const [mensagemErro, setMensagemErro] = useState(""); // Estado para erros
+  const navigate = useNavigate(); // Hook para redirecionamento
 
   const cadastrar = async () => {
     try {
-    await createUserWithEmailAndPassword(auth, email, senha)
-    } catch (err) {
+      // Limpa mensagens anteriores
+      setMensagemErro("");
+
+      // Tenta criar a conta
+      await createUserWithEmailAndPassword(auth, email, senha);
+
+      // Alerta de sucesso
+      alert("Conta criada com sucesso!");
+
+      // Redireciona para a página inicial
+      navigate("/");
+    } catch (err: any) {
       console.error(err);
+
+      // Trata os erros mais comuns do Firebase Authentication
+      switch (err.code) {
+        case "auth/email-already-in-use":
+          setMensagemErro("O email já está em uso. Tente outro.");
+          break;
+        case "auth/invalid-email":
+          setMensagemErro("Email inválido. Verifique o formato.");
+          break;
+        case "auth/weak-password":
+          setMensagemErro("A senha deve ter no mínimo 6 caracteres.");
+          break;
+        default:
+          setMensagemErro("Erro ao criar a conta. Tente novamente.");
+      }
     }
-  }
+  };
 
   const logout = async () => {
     try {
-    await signOut(auth);
+      // Limpa mensagens anteriores
+      setMensagemErro("");
+
+      // Realiza o logout
+      await signOut(auth);
+      alert("Você saiu da sua conta."); // Alerta de sucesso
     } catch (err) {
       console.error(err);
+      setMensagemErro("Erro ao sair da conta. Tente novamente.");
     }
-  }
+  };
 
   return (
     <>
@@ -35,17 +68,30 @@ export default function Autenticar() {
           </Link>
           <h1>Entrar na Suns Building</h1>
           <div className="form">
-            <input onChange={(e) => {setEmail(e.target.value)}} id="email" placeholder="Email..." type="text" />
-            <input onChange={(e) => {setSenha(e.target.value)}} id="senha" placeholder="Senha..." type="password" />
+            <input 
+              onChange={(e) => setEmail(e.target.value)} 
+              id="email" 
+              placeholder="Email..." 
+              type="text" 
+            />
+            <input 
+              onChange={(e) => setSenha(e.target.value)} 
+              id="senha" 
+              placeholder="Senha..." 
+              type="password" 
+            />
             <button onClick={cadastrar}>Cadastrar-se</button>
             <button onClick={logout}>Logout</button>
           </div>
+
+          {/* Exibe mensagens de erro */}
+          {mensagemErro && <p className="error-message">{mensagemErro}</p>}
+
           <footer className="footerLogin">
-          <p>Já possui conta? <Link to="/Login">Faça login aqui</Link></p>
+            <p>Já possui conta? <Link to="/Login">Faça login aqui</Link></p>
           </footer>
         </div>
-        </div>
+      </div>
     </>
-  )
+  );
 }
-
