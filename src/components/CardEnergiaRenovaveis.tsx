@@ -6,7 +6,7 @@ const CardEnergiaRenovaveis = () => {
     <div className='container-cardenergiarenovaveis'>
               
         <div className='container-img-cardenergiarenovaveis'>
-            <img className='imagens-pequenas' src={buscarImagem('geothermalEnergy')} alt="" />
+            <img className='imagens-pequenas' src={buscarImagem('energiaRenovavelPainel')} alt="" />
         </div>
 
 
@@ -14,11 +14,16 @@ const CardEnergiaRenovaveis = () => {
             
             <ul className='lista-energiarenovaveis'>
                 <li id='titulo-lista-energiarenovaveis'><h1>ENERGIA RENOVAVEIS...</h1></li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate maxime placeat ut fugiat soluta assumenda aliquam dignissimos inventore? Commodi id recusandae odio, illo voluptatum maiores vitae ipsa! Sapiente, quasi esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laudantium in illo culpa impedit accusamus necessitatibus omnis assumenda dicta delectus eaque optio atque perspiciatis nostrum obcaecati amet voluptatibus, maiores maxime.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid quos dolorum perspiciatis maxime eveniet aperiam reprehenderit repellendus quam pari</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
+                <li>
+                  As energias renováveis são geradas a partir de fontes naturais e são utilizadas como alternativas sustentáveis aos combustíveis fósseis, que, por sua vez, aumentam os gases do efeito estufa. <br />
+                  A principal vantagem ao usá-las é o menor impacto ambiental, pois reduzem a emissão de poluentes. <br />
+                  Algumas delas: <br />
+                <ul>
+                  <li>Éolica</li>
+                  <li>Solar</li>
+                  <li>Geotérmica</li>
+                </ul>
+              </li>
             </ul>
         </div>
 

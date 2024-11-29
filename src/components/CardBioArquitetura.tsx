@@ -13,7 +13,7 @@ const CardBioArquitetura = () => {
 
       
           <div className='container-img-cardbioarquitetura'>
-              <img className='imagens-pequenas' src={buscarImagem('varandaVerde')} alt="" />
+              <img className='imagens-pequenas' src={buscarImagem('bioArchitecture2')} alt="" />
           </div>
           
         <div className='container-text-cardbioarquitetura'>
@@ -21,11 +21,13 @@ const CardBioArquitetura = () => {
               
             <ul className='lista-bioarquitetura'>
                 <li id='titulo-lista-bioarquitetura'><h1>BIO-ARQUITETURA...</h1></li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate maxime placeat ut fugiat soluta assumenda aliquam dignissimos inventore? Commodi id recusandae odio, illo voluptatum maiores vitae ipsa! Sapiente, quasi esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laudantium in illo culpa impedit accusamus necessitatibus omnis assumenda dicta delectus eaque optio atque perspiciatis nostrum obcaecati amet voluptatibus, maiores maxime.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid quos dolorum perspiciatis maxime eveniet aperiam reprehenderit repellendus quam pari</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
+                <li>
+                  A bio-arquitetura é uma abordagem sustentável que integra técnicas de construção ecológicas e materiais naturais, minimizando o impacto ambiental e criando espaços mais harmoniosos com o meio ambiente. <br />
+                  Clique em um dos links abaixo para saber mais: <br />
+                 <a href="#ecotelhados">Ecotelhados</a><br />
+                 <a href="#drenagem-sustentavel">Sistema de Drenagem Sustentável</a><br />
+                 <a href="#tijolos-ecologicos">Tijolos Ecológicos</a>
+                </li>
             </ul>
         </div>
 

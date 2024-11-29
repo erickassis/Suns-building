@@ -10,22 +10,19 @@ function Footer() {
       <div className="container-nome-footer">
         <ul className='lista-nome'>
           <li>
-            AMANDA BEATRIZ DE JESUS SOUZA - 12723120167
+            AMANDA BEATRIZ DE JESUS SOUZA 
           </li>
          <li>
-              ERICK FONSECA DANTAS DE ASSIS -  12723124540
+              ERICK FONSECA DANTAS DE ASSIS 
           </li>
           <li>
-             GUILHERME SANTANA EVANGELISTA - 12723135956
+             GUILHERME SANTANA EVANGELISTA 
           </li>
           <li>
-              HÉLDER ARION DE BRITO LIMA - 12724130585 
+              HÉLDER ARION DE BRITO LIMA  
           </li>
           <li>
-              KAWAN OLIVEIRA CARNEIRO - 12724119606
-          </li>
-          <li>
-             VITOR CERQUEIRA BRANDÃO PITANGUEIRA - 12722123592
+              KAWAN OLIVEIRA CARNEIRO 
           </li>
         </ul>
       </div>

@@ -5,20 +5,20 @@ const CardIcones = () => {
   return (
     <div className='container-cardicones'>
         <div className='container-img-cardicones'>
-            <img src={buscarImagem('painelSolar')} alt="" id='background-img-cardicones'/>
+            <img src={buscarImagem('energiasRenovaveis')} alt="" id='background-img-cardicones'/>
 
             <ul className='list-cardicones'>
                 <li>
-                    <img src={buscarImagem('solarPanelTechnician')} alt="" />
+                    <img src={buscarImagem('illustracaoBiomassa')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('smartcity2')} alt="" />
+                    <img src={buscarImagem('illustrcaoBarragem')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('windmill')} alt="" />
+                    <img src={buscarImagem('illustracaoTurbina')} alt="" />
                 </li>
                 <li>
-                    <img src={buscarImagem('ecoBricks')} alt="" />
+                    <img src={buscarImagem('illustracaoPainelSolar')} alt="" />
                 </li>
             </ul>
         </div>
