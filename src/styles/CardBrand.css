@@ -1,37 +1,59 @@
 /* Container central do Componente CardBrand */
-.container-cardbrand{
-    width: 100%;
+.container-cardbrand {
+    display: flex;  /* Flexbox para alinhar os itens horizontalmente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    justify-content: center;
+    padding: 20px;
     background: linear-gradient(#f7a156, #858585);
     background-size: cover;
-}
-
-/* Contaienr que limita os itens */
-.container-limitador-cardbrand{
-    max-width: 50%;
-    max-height: 100%;
-    padding: 7% 5%;
+  }
+  
+  /* Contaienr que limita os itens do card */
+  .container-limitador-cardbrand {
+    width: 50%;  /* A largura do card será 50% */
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-.container-limitador-cardbrand img{
-    max-width: 100%;
-    max-height: 100%;
+  }
+  
+  /* Ajuste para a imagem manter o tamanho original */
+  .container-img-cardbrand img {
+    width: auto;  /* A imagem mantém a largura original */
+    height: auto;  /* Mantém a proporção da imagem */
+    max-width: 100%; /* A imagem não ultrapassa o limite do container */
+    max-height: 100%; /* A imagem não ultrapassa o limite do container */
     border-radius: 40px;
-}
-
-/* Container do título */
-.container-titulo-cardbrand{
+  }
+  
+  /* Container do título */
+  .container-titulo-cardbrand {
     background-color: rgb(194, 194, 194);
     position: absolute;
     right: 5%;
-}
-.container-titulo-cardbrand h1{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .container-titulo-cardbrand h1 {
     font-size: 36px;
     color: black;
-}
+  }
+  
+  /* Container da descrição ao lado do card */
+  .descricao-container {
+    max-width: 45%;  /* Largura para o texto não ficar muito largo */
+    padding: 20px;
+    margin-left: 20px;  /* Distância entre o card e a descrição */
+  }
+  
+  /* Estilo do texto "Nosso Objetivo" */
+  .descricaoSite {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
 
 @media (max-width: 1200px){
     .container-limitador-cardbrand{
