@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()], 
-  esbuild: {
-    target: 'esnext', // or a specific modern browser version
+  build: {
+    target: 'es2022', // or 'chrome90', 'firefox94', etc.
   },
 })
